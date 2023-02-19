@@ -25,7 +25,7 @@ body {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	width: 30%;
-	margin: 5%;
+	margin: 10%;
 	grid-gap: 30px;
 }
 #movimiento img{
@@ -41,7 +41,7 @@ body {
 /* * ============================== */
 
 .navbar {
-	background: #8a2be2;
+	background: #151515;
 	position: sticky;
 	top: 0;
 }
@@ -52,7 +52,7 @@ body {
 	padding: 20px;
 	width: 100%;
 	text-align: center;
-	color: #000;
+	color: #ffffff;
 	transition: .3s ease-out all;
 	position: sticky;
 }
@@ -124,7 +124,7 @@ aside {
 	min-width: 30%;
 	margin: 40px 20px 20px 0;
 	height: 100%;
-	background: #8a2be2;
+	background: #F49237;
 	padding: 20px;
 	border-radius: 3px;
 	position: sticky;
@@ -143,7 +143,7 @@ aside .titulo {
 aside .indice a {
 	display: block;
 	margin-bottom: 10px;
-	color: #FFAEC9;
+	color: #151515;
 }
 
 /* * ============================== */
