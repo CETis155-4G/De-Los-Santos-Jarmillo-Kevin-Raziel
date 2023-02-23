@@ -1,0 +1,41 @@
+h3{
+    color:#131c46;
+    background: #2174d4;
+    position: relative;
+    top: 0%;
+}
+form{
+    color: #131c46;
+    text-align: 25px;
+    position: relative;
+    top: 20px;
+}
+body{
+    background: #f2f2f2;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+button {
+    background: #131c46;
+    color: white;
+    font-size: larger;
+    position: relative;
+    top: 50px;
+}
+aside {
+	min-width: 30%;
+	margin: 60px 20px 20px 0;
+	height: 100%;
+	background: #2174d4;
+	padding: 160px;
+	border-radius: 3px;
+	position: sticky;
+	top: 20px
+	
+}
+aside .titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 50px;
+	margin-bottom: 20px;
+	color: #f2f2f2;
+}
