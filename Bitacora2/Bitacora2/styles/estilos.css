@@ -1,26 +1,29 @@
+/*se el inicio de una caja con 0 de pargen y padding*/
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-
+/*modifica todas las "a"*/
 a {
 	text-decoration: none;
 	outline: none;
 }
-
+/*decora las "a" con una linea*/
 a:hover {
 	text-decoration: underline;
 }
-
+/*pone a todo el body con una fuente y un fondo*/
 body {
     font-family: 'Noto Sans JP', sans-serif;	
 	background: #f2f2f2;
 }
+/*altera la clase con las cosas centradad*/
 .flex-center{
 	display: flex;
 	justify-content: center;
 }
+
 #movimiento{
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
@@ -45,7 +48,7 @@ body {
 	position: sticky;
 	top: 0;
 }
-
+/*afecta las "a" que estan dentro de nav*/
 .navbar a {
 	color: #ffffff;
 	display: inline-block;
@@ -56,14 +59,14 @@ body {
 	transition: .3s ease-out all;
 	position: sticky;
 }
-
+/*cuando el cursor pase sobre ellos cambia el color de fonto y la letar*/
 .navbar a:hover {
 	background: #1D2F3D;
 	color: #fff;
 	text-decoration: none;
 	
 }
-
+/*le da dimensiones a al contenedor*/
 .contenedor {
 	max-width: 1000px;
 	width: 90%;
@@ -75,12 +78,12 @@ body {
 /* * ============================== */
 /* * ===== CONTENEDOR IMAGEN ====== */
 /* * ============================== */
-
+/*la imagen principal ocupa toda ala panatalla */
 .contenedor-imagen {
 	height: 90vh;
 	
 }
-
+/*se le da dimension a la imagen*/
 .contenedor-imagen img {
 	width: 100%;
 	height: 100%;
@@ -96,18 +99,18 @@ body {
 main {
 	min-height: 100vh;
 }
-
+/*modifica a las "p" de la calse contenido*/
 main .contenido p {
 	margin-bottom: 20px;
 	line-height: 30px;
 	color: #525151;
 }
-
+/*Modifica el titulo de la clase contenido*/
 main .contenido .titulo {
     font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
 	padding-top: 40px;
-	text-shadow: 10px 0px 7px #525151;
+	text-shadow: 10px 0px 7px #000000;
 
 }
 
@@ -120,6 +123,9 @@ main .contenido .fecha {
 /* * ============ ASIDE =========== */
 /* * ============================== */
 
+
+/*se le da una forma a la caja que contiene el menu*/
+/*un margen, el espacio que ocupa, un fondo*/
 aside {
 	min-width: 30%;
 	margin: 40px 20px 20px 0;
@@ -131,7 +137,7 @@ aside {
 	top: 20px
 	
 }
-
+/*afecta el titulo que esta dentro de la clase titulo*/
 aside .titulo {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
@@ -139,7 +145,7 @@ aside .titulo {
 	margin-bottom: 20px;
 	color: #f2f2f2;
 }
-
+/*afecta a las "a" que estan adentro de la clase indice*/
 aside .indice a {
 	display: block;
 	margin-bottom: 10px;
@@ -149,6 +155,8 @@ aside .indice a {
 /* * ============================== */
 /* * ========== FOOTER ============ */
 /* * ============================== */
+
+/*Hace que se deslize hasta el punto indicado*/
 footer .navbar{
 	position: sticky;
 	bottom: 0;
