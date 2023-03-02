@@ -13,14 +13,16 @@
     --button-hover-color: hsla(0, 0%, 0%, 0.3);
 
 }
-
+/*Se crea un margen y padding en 0*/
+/*Border box indica que se tomen en cuenta las medidas de un elemento*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-
+/*Se le da unn color al fondo del body*/
+/*Se pone un color, una topigrafia, un tamano a la letra*/
 body{
     background: #f2f2f2;
     color: var(--tex-light-gray);
@@ -44,16 +46,19 @@ body{
     position: relative;
     z-index: 1;
 }
+/*se modifica la clase box con un color, redondiado, un color y una sombra*/
 .form-contenedor .box{
     border-color: var(--body-bg-color);
     border: 1px solid var(--border-color);
     padding: 40px 50px;
     border-radius: 20px;
     background-color: #2174d4;
-    box-shadow: black 60 60 60;
+    box-shadow: 7px 13px 37px #000;
 
 }
+/*afecta a todos los H3*/
 .form-contenedor h3{
+/*Un tamano de 20px, centrado, color*/
     font-size: 20px;
     text-align: center;
     line-height: 1.2;
@@ -72,22 +77,27 @@ body{
     color: white;
     opacity: 0;
 }
+/*quita el fondo de los campos y se quita los bordes*/
 .form-contenedor .input-control{
     display: block;
     height: 40px;
     width: 100%;
     background-color: transparent;
     border: none;
+/*se deja ver 1px del borde de abajo*/
     border-bottom: 1px solid var(--border-color);
+/*hereda las propoedades del padre*/
     color: inherit ;
     font-weight: inherit;
     font-family: inherit;
+/*Cambia el tamno de letra*/
     font-size: 16px; 
 }
 .form-contenedor .input-control:focus{
     /*elimina en contorno de email y password*/
     outline: none;
 }
+/*los hipervinculos se encontraran a la derecha con un margen de 10px*/
 .form-contenedor .input-link{
     margin-top: 10px;
     text-align: right;
@@ -109,6 +119,7 @@ body{
     border: none;
     z-index: 1;
 }
+/*para cambiar el color cuando el cursor se ponga sobre el*/
 .form-contenedor .bot::before{
     content: "";
     position: absolute;
@@ -122,6 +133,7 @@ body{
 .form-contenedor .bot:hover::before{
     background-color: var(--button-hover-color);
 }
+/*centran todas las p del archivo*/
 .form-contenedor p{
     text-align: center;
 }
